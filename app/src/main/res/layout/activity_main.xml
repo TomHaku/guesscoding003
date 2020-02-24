@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/Text_1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="sans-serif"
+        android:text="The computer only considers a number"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Text_2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="140dp"
+        android:text="from 1 to 9999"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText_number_consola"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="120dp"
+        android:ems="10"
+        android:fontFamily="@font/consola"
+        android:hint="####"
+        android:lineSpacingExtra="24sp"
+        android:maxLength="4"
+        android:numeric="integer"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/button_check"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="150dp"
+        android:background="@drawable/button_circle"
+        android:clickable="false"
+        android:fontFamily="@font/overlock"
+        android:onClick="onclick_buttoncheck"
+        android:text="Check"
+        android:textColor="#FCFCFC"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+</LinearLayout>
